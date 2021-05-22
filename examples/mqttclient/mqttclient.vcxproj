@@ -92,7 +92,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\;..\..\..\wolfssl;../../../wolfssl/IDE/WIN/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\;G:/wolfssl;..\..\..\wolfssl;g:/wolfssl/IDE/WIN/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WOLFSSL_USER_SETTINGS; _MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -123,6 +123,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WOLFSSL_USER_SETTINGS; _MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>/wolfssl/wolfssl;/wolfssl;/wolfMQTT;/wolfMQTT/wolfmqtt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -139,6 +140,7 @@
     <ClInclude Include="..\mqttexample.h" />
     <ClInclude Include="..\mqttnet.h" />
     <ClInclude Include="mqttclient.h" />
+    <ClInclude Include="user_settings.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\wolfmqtt.vcxproj">
