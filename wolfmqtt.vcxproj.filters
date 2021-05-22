@@ -37,5 +37,8 @@
     <ClInclude Include="wolfmqtt\visibility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="wolfmqtt\vs_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
