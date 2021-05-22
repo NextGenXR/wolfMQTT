@@ -62,7 +62,7 @@ examples/firmware/fwpush
 *.opensdf
 firmware.bin
 *.trs
-IDE/ARDUINO/wolfMQTT
+# IDE/ARDUINO/wolfMQTT
 examples/azure/azureiothub
 examples/aws/awsiot
 examples/wiot/wiot
@@ -73,3 +73,6 @@ examples/sn-client/sn-client_qos-1
 examples/sn-client/sn-multithread
 examples/multithread/multithread
 examples/mqttsimple/mqttsimple
+
+x64/**
+*.pdb
